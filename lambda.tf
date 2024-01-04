@@ -1,5 +1,5 @@
 resource "aws_lambda_function" "my_lambda" {
-  function_name = "MyLambdaFunction"
+  function_name = "MyLambdaFunction2"
   handler       = "index.handler"
   runtime       = "python3.8"
   role          = aws_iam_role.lambda_exec.arn
