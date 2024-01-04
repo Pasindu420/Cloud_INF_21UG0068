@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "pasindu-tfstate-bkt-lab3" #change this
+    bucket = "pasindu-tfstate-bkt-lab2" #change this
     key    = "terraform.tfstate"
     region = "us-east-1"
     #dynamodb_table = "my-lock-table" # optional (Only if you created the DynamoDB table in step 4) 
