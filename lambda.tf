@@ -27,7 +27,7 @@ resource "aws_iam_role" "lambda_exec" {
 
 # Additional policies for the Lambda role...
 resource "aws_iam_policy" "lambda_logging_policy" {
-  name        = "lambda_logging_policy"
+  name        = "lambda_logging_policy2"
   description = "IAM policy for logging from a lambda"
 
   policy = jsonencode({
